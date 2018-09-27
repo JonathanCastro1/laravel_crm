@@ -36,7 +36,7 @@
 
 	
 	{{-- {!! Form::open(['method'=>'POST', 'action'=> '']) !!}	 --}}
-	<form action=" " method="POST" >	
+	<form action="{{route('initsession')}} " method="POST" >	
 
 	<div class="form-group">
 

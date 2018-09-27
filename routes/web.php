@@ -20,6 +20,14 @@ Route::get('/', ['as'=>'login','uses'=>'login@index']);
 // /login es lo que obtienes en la url, y 'as'=>'login' es para los route
 Route::get('/login', ['as'=>'login','uses'=>'login@index']);
 
+Route::post('initsession', ['as'=>'initsession','uses'=>'login@initsession']);
+
+
+
+
+
+// Route::get('/login', 'Auth\AuthController@ShowLoginForm');
+
 // as alias, es ideal para mucho codigo cuando toca modificarlo,uses significa usar el controlador@con metodo
 Route::get('register', ['as'=>'register','uses'=>'register@index']);
 

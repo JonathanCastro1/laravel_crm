@@ -41,6 +41,8 @@ class Register extends Controller
 
 		// back hace redirect a la ultima url
 		// return back();
+
+        // $request->session()->flash('reply_message','Your reply has been submitted and is waiting moderation');
 		return redirect()->route('login');
 
     }     
