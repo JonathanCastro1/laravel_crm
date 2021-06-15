@@ -12,3 +12,7 @@ npm-debug.log
 yarn-error.log
 .env
 .phpunit.result.cache
+
+# ignorar para no tener problemas de versiones al actualizar
+composer.lock
+package-lock.json
